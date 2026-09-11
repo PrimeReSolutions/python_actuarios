@@ -1,0 +1,16 @@
+# Curso Python para Actuarios - entorno reproducible
+# Para la instalación local (Python 3.10 a 3.12). En Google Colab no se usa:
+# la celda de arranque de cada notebook instala lo necesario.
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.14.1
+chardet==5.2.0  # sesion 2: deteccion de encoding de archivos
+matplotlib==3.9.2
+seaborn==0.13.2
+chainladder==0.8.24
+sparse==0.14.0  # chainladder 0.8.x requiere la API antigua de sparse
+openpyxl==3.1.5
+xlrd==2.0.1
+jupyter==1.1.1
+nbconvert==7.16.4
+nbformat==5.10.4
