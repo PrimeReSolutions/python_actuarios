@@ -5,8 +5,9 @@ Los notebooks v2 leen SOLO de esta carpeta; no hay dependencias de Drive ni pick
 
 | Archivo | Uso en el curso | Procedencia |
 |---|---|---|
-| `auto.csv` | Sesión 1 (pandas básico) | Carpeta Drive del curso |
-| `berqsherm.csv` | Sesión 1 y práctica IBNR (triángulo Berquist-Sherman) | Carpeta Drive / repo casact |
+| `auto.csv` | Preparación y día 1, bloque 1 (pandas) | CAS Loss Reserve Database (`clrd.csv` de chainladder 0.8.24): West Bend Mut Ins Grp, ppauto y comauto, ocurrencia 1988 a 1997, triángulo superior. incurred = IncurLoss menos BulkLoss; paid = CumPaidLoss. Miles de USD |
+| `nuevas_lineas.csv` | Día 1, bloque 1 (ejercicio integrador) | Mismo origen y grupo que `auto.csv`: wkcomp (WorkersComp) y othliab (OtherLiability) |
+| `berqsherm.csv` | Práctica IBNR (triángulo Berquist-Sherman) | chainladder 0.8.24, solo MedMal. Se eliminó la línea "Auto" del paquete, cuyo incurrido duplica el de MedMal |
 | `prism.csv` | Sesión 3 (chainladder) | GitHub casact/chainladder-python |
 | `base_rrc.xlsx` | Sesión 2 (calidad RRC) y sesión 4 (cálculo RRC/pnc) | Drive id 13GYIQ… (=`clase_rrc.xlsx`) |
 | `base_rmat.csv` | Sesión 2 (calidad RM), sesiones 3-4 (reservas) | **Sustituto**: derivado de `rmat_ejercicio_final.xlsx` (el CSV original, Drive id 1xyJ7…, ya no existe). Columnas renombradas: Prima→`monto prima`, suma asegurada→`suma_asegurada` |
