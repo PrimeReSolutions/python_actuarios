@@ -9,6 +9,10 @@ Los notebooks v2 leen SOLO de esta carpeta; no hay dependencias de Drive ni pick
 | `nuevas_lineas.csv` | Día 1, bloque 1 (ejercicio integrador) | Mismo origen y grupo que `auto.csv`: wkcomp (WorkersComp) y othliab (OtherLiability) |
 | `cierre_hogar.xlsx` | Día 1, bloque 2 (Excel y Python) | Sintético (fuentes/datos/generar_cierre_hogar.py, semilla fija): cartera de Hogar de 3 000 pólizas, siniestros con filas de título antes de la cabecera y 3 siniestros sin póliza a propósito, hoja de parámetros en B3:C7. Cierre 31/12/2024, euros |
 | `primas_hogar.csv` | Día 1, bloque 2 (Excel y Python) | Sintético, mismo origen: nueva producción 2024 por mes y producto, exportada con formato español (`;`, coma decimal, punto de miles, dd/mm/aaaa). Cuadra con la cartera |
+| `hogar_extraccion.xlsx` | Día 1, bloques 3 y 4 (manejo y calidad de datos) | Sintético (fuentes/datos/generar_manejo_datos.py, semilla fija): 20 042 pólizas de Hogar con incidencias controladas (textos, provincias, primas como texto, vacías y negativas, no vigentes, duplicados, tasas anómalas). Cálculo a 31/12/2024 |
+| `vida_polizas.csv` | Día 1, bloques 3 y 4 | Sintético, mismo origen: 8 020 pólizas de Vida riesgo en cp1252, separador `;`, formato español; incidencias de sexo, fechas, capitales, vigencia y duplicados |
+| `vida_siniestros.xlsx` | Día 1, bloques 3 y 4 | Sintético: 29 fallecimientos, 25 de pólizas de la cartera |
+| `provincias.csv` | Día 1, bloques 3 y 4 | Catálogo de las 52 provincias con código INE y comunidad autónoma |
 | `berqsherm.csv` | Práctica IBNR (triángulo Berquist-Sherman) | chainladder 0.8.24, solo MedMal. Se eliminó la línea "Auto" del paquete, cuyo incurrido duplica el de MedMal |
 | `prism.csv` | Sesión 3 (chainladder) | GitHub casact/chainladder-python |
 | `base_rrc.xlsx` | Sesión 2 (calidad RRC) y sesión 4 (cálculo RRC/pnc) | Drive id 13GYIQ… (=`clase_rrc.xlsx`) |
