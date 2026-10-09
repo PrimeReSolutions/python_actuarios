@@ -8,7 +8,7 @@ Material del curso Python para Actuarios: 11, 12 y 13 de noviembre de 2026.
 |---|---|---|---|
 | Antes del curso | Preparación | Entorno de trabajo en Colab, primer contacto con pandas y comprobación de Python en Excel | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PrimeReSolutions/python_actuarios/blob/main/notebooks/dia0_preparacion.ipynb) |
 | 1 | 1 | Introducción a Python, NumPy y pandas | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PrimeReSolutions/python_actuarios/blob/main/notebooks/dia1_01_introduccion_python.ipynb) |
-| 1 | 2 | Introducción Excel y Python | En preparación |
+| 1 | 2 | Excel y Python: lectura y escritura de libros, CSV en formato español, tablas dinámicas, triángulos y cruces con control | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PrimeReSolutions/python_actuarios/blob/main/notebooks/dia1_02_excel_python.ipynb) |
 | 1 | 3 y 4 | Manejo de datos | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PrimeReSolutions/python_actuarios/blob/main/notebooks/sesion_02_calidad_datos.ipynb) |
 | 2 | 2 | Simulación | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PrimeReSolutions/python_actuarios/blob/main/notebooks/sesion_05_simulacion.ipynb) |
 | 2 | 3 | Reservas no vida | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PrimeReSolutions/python_actuarios/blob/main/notebooks/sesion_03_triangulos_ibnr.ipynb) |

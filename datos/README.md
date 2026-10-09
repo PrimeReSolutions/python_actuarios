@@ -7,6 +7,8 @@ Los notebooks v2 leen SOLO de esta carpeta; no hay dependencias de Drive ni pick
 |---|---|---|
 | `auto.csv` | Preparación y día 1, bloque 1 (pandas) | CAS Loss Reserve Database (`clrd.csv` de chainladder 0.8.24): West Bend Mut Ins Grp, ppauto y comauto, ocurrencia 1988 a 1997, triángulo superior. incurred = IncurLoss menos BulkLoss; paid = CumPaidLoss. Miles de USD |
 | `nuevas_lineas.csv` | Día 1, bloque 1 (ejercicio integrador) | Mismo origen y grupo que `auto.csv`: wkcomp (WorkersComp) y othliab (OtherLiability) |
+| `cierre_hogar.xlsx` | Día 1, bloque 2 (Excel y Python) | Sintético (fuentes/datos/generar_cierre_hogar.py, semilla fija): cartera de Hogar de 3 000 pólizas, siniestros con filas de título antes de la cabecera y 3 siniestros sin póliza a propósito, hoja de parámetros en B3:C7. Cierre 31/12/2024, euros |
+| `primas_hogar.csv` | Día 1, bloque 2 (Excel y Python) | Sintético, mismo origen: nueva producción 2024 por mes y producto, exportada con formato español (`;`, coma decimal, punto de miles, dd/mm/aaaa). Cuadra con la cartera |
 | `berqsherm.csv` | Práctica IBNR (triángulo Berquist-Sherman) | chainladder 0.8.24, solo MedMal. Se eliminó la línea "Auto" del paquete, cuyo incurrido duplica el de MedMal |
 | `prism.csv` | Sesión 3 (chainladder) | GitHub casact/chainladder-python |
 | `base_rrc.xlsx` | Sesión 2 (calidad RRC) y sesión 4 (cálculo RRC/pnc) | Drive id 13GYIQ… (=`clase_rrc.xlsx`) |
