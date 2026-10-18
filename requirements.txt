@@ -1,0 +1,12 @@
+# Curso Python para Actuarios: entorno para la instalación local (Python 3.11 o 3.12).
+# En Google Colab no se usa: la celda de preparación de cada notebook instala lo necesario.
+# Versiones con las que se han probado todos los notebooks.
+pandas==3.0.6
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+statsmodels==0.15.0
+chainladder==0.10.1
+openpyxl==3.1.5
+jinja2==3.1.6
+jupyter

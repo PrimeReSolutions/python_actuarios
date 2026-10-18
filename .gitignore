@@ -1,0 +1,5 @@
+salidas/
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+notebooks/
