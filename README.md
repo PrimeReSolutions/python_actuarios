@@ -8,7 +8,7 @@ Este repositorio no contiene los notebooks del curso; el equipo docente los faci
 
 La celda de **preparación del entorno** de cada notebook descarga este repositorio en Colab y sitúa la sesión en su carpeta, de modo que el notebook lee los datos de `datos/`. No hay que hacer nada más.
 
-1. Abre el notebook en Colab y guarda una copia en tu Drive (*Archivo > Guardar una copia en Drive*).
+1. Abre el notebook en Colab y guarda una copia en tu Drive (*Archivo > Guardar una copia en Drive*). Trabaja siempre en esa copia: si Colab te avisa de que no puede guardar los cambios, estás en el original.
 2. Ejecuta la celda de preparación del entorno antes que cualquier otra.
 3. Si Colab reinicia el entorno, vuelve a ejecutar la preparación del entorno y las celdas anteriores.
 
