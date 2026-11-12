@@ -21,4 +21,5 @@ Los notebooks del curso leen solo de esta carpeta. Los datos sintéticos se gene
 | `autos_tarificacion.csv` | Día 3, bloques 3 y 4 (tarificación) | Sintético (fuentes/datos/generar_tarificacion.py): 40 000 pólizas de Autos con factores de riesgo, exposición, número de siniestros y coste; el color no tiene efecto, a propósito |
 | `berqsherm.csv` | Día 2, bloque 3 (Berquist-Sherman) | chainladder 0.8.24, solo MedMal. Se eliminó la línea "Auto" del paquete, cuyo incurrido duplica el de MedMal |
 | `prism.csv` | Día 2, bloque 3 (provisiones no vida) y día 3, bloque 1 (riesgos no vida) | GitHub casact/chainladder-python |
+| `triangulo.xlsx` | Consulta: cargar en chainladder un triángulo que ya viene en forma de triángulo | Sintético (fuentes/datos/generar_triangulo_mensual.py, semilla fija): pagos acumulados de Autos, ocurrencia mensual de enero de 2022 a diciembre de 2024, desarrollo en meses (0 es el mes de ocurrencia), cierre 31/12/2024. Hoja `pagos`, una fila por mes de origen. Euros |
 | `img/` | Logo del curso | Propio |
