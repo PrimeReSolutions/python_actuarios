@@ -13,6 +13,7 @@ Los notebooks del curso leen solo de esta carpeta. Los datos sintéticos se gene
 | `vida_siniestros.xlsx` | Día 1, bloques 3 y 4 | Sintético: 29 fallecimientos, 25 de pólizas de la cartera |
 | `provincias.csv` | Día 1, bloques 3 y 4 | Catálogo de las 52 provincias con código INE y comunidad autónoma |
 | `autos_frecuencia.csv` | Día 2, bloque 1 (calibración) | Sintético (fuentes/datos/generar_calibracion.py): 12 000 pólizas de Autos con su número de siniestros en 2024, binomial negativa |
+| `autos_frecuencia_extraccion.csv` | Día 3, ejercicio integrador | La misma cartera tal como llega del sistema, con errores para depurar: nombres de columna con espacios y mayúsculas, categorías con espacios y 40 pólizas repetidas |
 | `autos_severidad.csv` | Día 2, bloque 1 (calibración) | Sintético, mismo origen: coste de 400 siniestros de daños propios, lognormal |
 | `vida_cartera.csv` | Día 2, bloque 4 (provisiones de vida) | Base depurada de `vida_polizas.csv` con las reglas del día 1 (fuentes/datos/generar_vida.py) |
 | `tabla_mortalidad.csv` | Día 2, bloque 4 | Tabla técnica unisex de la tarifa (Gompertz, ilustrativa); no es una tabla oficial |
